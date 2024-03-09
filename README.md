@@ -52,7 +52,7 @@
   <center>
 <div class="bento-grid" bg="grayscale30" id="a" style="border-radius:10px;width:90%;overflow-y:hidden;overflow-x:auto" cg="grayscale1">
 <h1 cg="pink30">Alert:</h1>
-<p style="margin-top:35px">At the start :p</p>
+<p style="margin-top:35px">Use this code</p>
 </div>
 </center>
 <!--Load-->
@@ -62,8 +62,7 @@
 <div class="loading-overlay" id="loadingOverlay">
     <div class="loading-spinner"></div>
   </div>
-  <script>const navLinks = document.querySelectorAll('.nav-link');
-    const loadingOverlay = document.getElementById('loadingOverlay');
+  
 
     navLinks.forEach(link => {
       link.addEventListener('click', (e) => {
