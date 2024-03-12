@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+:root{
+    --blue:#e5f3fd;
+    --dark:#1f2630;
+}/*   */
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'Nunito', sans-serif;
+    text-decoration:none;
+}
+html{
+    scroll-behavior:smooth;
+}
+body{
+    background:var(--blue);
+}/*   */
+main{
+    width:100vw;
+    height:100%;
+}/*   */
+.profile-icon1{
+    width:52px;
+    height:52px;
+    border-radius:50px;
+    background:rgba(0,0,0,.3) url(https://i.postimg.cc/0jh8tQPt/p1.jpg);
+    background-size:cover;
+    margin-right:10px;
+}/*   */
+.profile-icon2{
+    width:52px;
+    height:52px;
+    border-radius:50px;
+    background:rgba(0,0,0,.3) url(https://i.postimg.cc/mr0Wfn0D/p2.jpg);
+    background-size:cover;
+    margin-right:10px;
+}/* Never trust anyone */
+.cont{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}/*  */
+nav{
+    width:100%;
+    height:63px;
+    background:linear-gradient(to top right, yellowgreen, green);
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 15px;
+    color:#fff;
+    transition:1s;
+    box-shadow:-5px 0 10px rgba(0,0,0,.7);
+}/*   */
+nav i.fa-bars{
+    color:#fff;
+    font-size:23px;
+    padding:7px;
+    transition:.2s;
+}
+nav i.fa-bars:active{
+    background:rgba(0,0,0,.1);
+}/*   */
+#menu2{
+       display:none;
+}
+#menu{
+    width:100%;
+    height:0px;
+    text-align:center;
+    background:var(--dark);
+    overflow:hidden;
+    position:fixed;
+    left:0;
+    top:63px;
+    transition:.3s;
+    transition-timing-function:ease-in-out;
+}/*   */
+#menu li {
+    list-style-type: none;
+    width: 100%;
+    padding: 8px;
+    transition:.2s;
+    position: relative;
+}/*   */
+
+#menu li:hover {
+    background: rgba(255, 255, 255, .15);
+    transform: scale(1.05);
+    z-index: 1;
+}/*   */
+#menu li i{
+    font-size:18px;
+    color:#fff;
+    padding:0 6px 0 0;
+}
+#menu li a,
+#menu li i,li {
+    color: #fff;
+    cursor:none;
+}
+
+#menu li:hover,
+#menu li:hover i{
+    color: yellowgreen;
+}/*   */
+.header{
+    width:100%;
+    height:450px; background:url(https://cdn.leonardo.ai/users/67f5b889-57f7-4c91-a866-5196e916f817/generations/25a95ea3-08fa-425c-a807-db1d029a86cf/PhotoReal_Create_an_incredibly_realistic_4K_portrait_featuring_0.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}/*   */
+.content-cont{
+    width:100%;
+    height:450px;
+    background:rgba(0,0,0,.4);
+    display:flex;
+    align-items:center;
+}
+.h1{
+    font-size:27px;
+    font-weight:bolder;
+    margin:0 15px;
+    text-shadow:2px 2px 5px rgba(0,0,0,.7);
+}
+.h1 h3{
+    color:yellowgreen;
+}
+.h1 h4{
+    color:#fff;
+    font-size:25px;
+}/*   */
+.abouth-the{
+    width:100%;
+    text-align:center;
+    padding:15px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.death-dexter{
+    width:100%;
+    padding:15px;
+    font-size:18px;
+}
+.death-dexter span{
+    color:yellowgreen;
+    font-weight:bold;
+}
+.dexter-dead{
+    width:100%;
+    height:auto;
+    margin-top:15px;
+    background:transparent;
+}/*   */
+.mumu-M{
+    margin:15px;
+    margin-bottom:0;
+}
+.death-wow{
+    width:100%;
+    height:auto;
+    padding:10px;
+}
+.first-three,.second-three{
+    width:100%;
+    height:auto;
+}/*   */
+.🄰♡🄼{
+    width:94%;
+    height:auto;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:3px 3px 10px rgba(0,0,0,.15), -3px -3px 10px rgba(0,0,0,.1), inset 5px 5px 5px rgba(0,0,0,.2);
+    margin:25px 0;
+    transition:.3s;
+}/* He belongs to someone else now  */
+.🄰♡🄼:hover{
+     box-shadow:3px 3px 10px rgba(0,0,0,.05), -3px -3px 10px rgba(0,0,0,0), inset 5px 5px 5px rgba(0,0,0,.3);
+     width:94%;
+     height:calc(100% -10px);
+     scale:0.98;
+}
+.suicide-done{
+    width:100%;
+    height:210px;
+    background-size:cover;
+}
+.suicide-me1{
+    background:var(--dark) url(https://i.postimg.cc/pT8nRQX1/20230901-230957.png);
+    background-size:cover;
+}/*   */
+.suicide-me2{
+    background:var(--dark) url(https://i.postimg.cc/t45t0dgB/RPG-40-Design-a-visually-striking-dark-room-with-an-accent-wal-0.jpg);
+    background-size:cover;
+}
+.suicide-me3{
+    background:var(--dark) url(https://i.postimg.cc/MGfYfQp1/20230901-231559.png);
+    background-size:cover;
+}/*   */
+.suicide-me4{
+    background:var(--dark) url(https://i.postimg.cc/gkCZnB1k/20230901-233216.png);
+    background-size:cover;
+}
+.suicide-me5{
+    background:var(--dark) url(https://i.postimg.cc/wMTYPcxP/RPG-40-Create-a-photorealistic-image-of-a-stunning-girl-walkin-0.jpg);
+    background-size:cover;
+}/*   */
+.suicide-me6{
+    background:var(--dark) url(https://i.postimg.cc/yYxzyPb3/RPG-40-Commercial-Poster-Brand-Video-Subject-Design-an-eyecatc-1.jpg);
+    background-size:cover;
+}/*   */
+.suicide-me7{background:var(--dark)
+url(https://i.postimg.cc/44DLdFd2/Screenshot-2023-0902-074101.png);
+background-size:cover;
+}
+.suicide-me8{background:var(--dark)
+url(https://i.postimg.cc/SNVgrQd3/Screenshot-2023-0902-075513.png);background-size:cover;}
+.why-forget-you{
+    width:100%;
+    height:auto;
+    text-align:left;
+    padding:15px;
+}
+.tt{
+    font-size:17px;
+    color: #000000;
+    font-weight:bolder;
+}
+.tg,.pg{
+    font-size:17px;
+}/*   */
+.g-order{
+    outline:none;
+    border:none;
+    padding:10px;
+    color:#fff;
+    background:linear-gradient(to top right, yellowgreen, green);
+    border-radius:10px;
+     box-shadow:inset 3px 3px 10px rgba(0,0,0,.1), -3px -3px 10px rgba(0,0,0,.3), inset 5px 5px 5px rgba(0,0,0,.15);
+     width:100%;
+     margin:10px 0 0 0;
+}
+.g-order:active{
+    scale:0.985;
+    box-shadow:inset 3px 3px 10px rgba(0,0,0,.1), -3px -3px 10px rgba(0,0,0,0), inset 5px 5px 5px rgba(0,0,0,.2);
+}/*   */
+.about_mee{
+    width:100%;
+    height:auto;
+}
+.one_sided_love{
+    margin:15px;
+    margin-bottom:5px;
+    font-size:17px;
+    font-weight:bolder;
+}
+.always-miss-you{
+    width:100%;
+    padding:15px;
+}/*   */
+.spec{
+    font-weight:bolder;
+    font-size:16px;
+    margin-top:15px;
+}
+.always-miss-you li{
+    color:#000;
+}
+.always-miss-you ul{
+    margin:0 20px;
+    margin-top:10px;
+}
+.love-mumu{
+    width:100%;
+    height:auto;
+    background:var(--dark);
+    margin-top:15px;
+    padding:15px;
+    color:#E8ECF7;
+    
+}
+.love-mumu li{
+    list-style-type:none;
+    margin-left:5px;
+}/*   */
+.love-mumu .links{
+    margin-top:10px;
+}
+.love-mumu .contact-info{
+    margin-top:6px;
+}
+.love-mumu .contact-info i{
+    margin:0 3px;
+}
+.love-mumu li a{
+    color:#E8ECF7;
+}/*   */
+.love-mumu h2{
+    color:yellowgreen;
+    font-size:20.5px;
+    margin:5px 0;
+}
+.social,.social-icons{
+    margin:10px 0;
+}
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+    .first-three{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .second-three{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .🄰♡🄼{
+        margin:25px 10px;
+        flex:1;
+    }
+    .suicide-me2,.suicide-me6,.suicide-me4{
+        height:185px;
+    }
+    .h1 h3{
+        font-size:37px;
+    }
+    .h1 h4{
+        font-size:34px;
+    }/*   */
+    .cont h3{
+        font-size:24px;
+    }
+    .death-dexter{
+        font-size:25px;
+        padding:17px;
+    }
+    .mumu-M{
+        font-size:27px;
+    }
+    .tt{
+       font-size:20px;
+   }
+   .tg,.pg{
+      font-weight:bolder;
+      font-size:19px;
+   }
+   .one_sided_love,.spec{
+       font-size:23.5px;
+   }
+   .one_sided_love{
+       margin-left:20px;
+   }
+   .always-miss-you{
+       font-size:22.5px;
+       padding:20px;
+   }
+   #menu2{
+       display:none;
+   }
+   .love-mumu h2{
+       font-size:24.5px;
+   }/* Never trust anyone */
+   .love-mumu{
+       font-size:22.5px;
+       padding:20px;
+   }
+   .header,.content-cont{
+       height:550px;
+   }
+   #menu li {
+       font-size:18px;
+   }
+   #menu li i{
+    font-size:18.5px;
+   }
+}
+@media only screen and (min-width: 992px) {
+    .first-three{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }/*   */
+    .second-three{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .🄰♡🄼{
+        margin:25px 10px;
+        flex:1;
+    }
+    .h1{
+        margin:0 25px;
+        font-weight:bolder;
+    }
+    .h1 h3{
+        font-size:42px;
+    }/*   */
+    .h1 h4{
+        font-size:38px;
+    }
+    .cont h3{
+        font-size:27px;
+    }
+    .death-dexter{
+        font-size:30px;
+        padding:20px;
+    }
+    .mumu-M{
+        font-size:30px;
+    }
+    .tt{
+       font-size:21px;
+   }
+   .tg,.pg{
+      font-weight:bolder;
+      font-size:20px;
+   }/*   */
+   .one_sided_love,.spec{
+       font-size:26px;
+   }
+   .one_sided_love{
+       margin-left:25px;
+   }
+   .always-miss-you{
+       font-size:25px;
+       padding:25px;
+   }
+   nav{
+       height:73px;
+   }
+   nav i.fa-bars{
+       display:none;
+   }
+   #menu2{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+   }/*   */
+   #menu2 li{
+    list-style-type:none;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0 7px;
+    font-size:20px;
+   }
+    #menu2 li i{
+     margin:0 6.5px;
+    }
+    .love-mumu h2{
+       font-size:27px;
+   }
+   .love-mumu{
+       font-size:25px;
+       padding:25px;
+   }
+   .header,.content-cont{
+       height:600px;
+   }
+}
+.all{
+    width:100vw;
+    height:100%;
+    background:rgba(0,0,0,.6);
+    position:fixed;
+    top:0;
+    left:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    z-index:9999;
+    
+}/*   */
+.box{
+    width:80%;
+    height:auto;
+    background:white;
+    box-shadow:inset 3px 3px 10px rgba(0,0,0,.1), -3px -3px 10px rgba(0,0,0,.3), inset 5px 5px 5px rgba(0,0,0,.15);
+    border-radius:15px;
+    padding:15px;
+    text-align:center;
+}/*   */
+.box button{
+    outline:none;
+    border:none;
+    padding:10px;
+    color:#fff;
+    background:linear-gradient(to top right, yellowgreen, green);
+    border-radius:10px;
+     box-shadow:inset 3px 3px 10px rgba(0,0,0,.1), -3px -3px 10px rgba(0,0,0,.3), inset 5px 5px 5px rgba(0,0,0,.15);
+     width:100%;
+     margin:10px 0 0 0;
+     text-decoration:underline;
+}
+.box button i{
+    padding:3px;
+    font-size:16px;
+    
+}
