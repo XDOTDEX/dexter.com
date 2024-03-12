@@ -1,9 +1,3 @@
-<!--
-<h2 align="center">
-  Welcome to Dexter World!
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
-</h2>
--->
 
 <!--
 <p align="center">
@@ -39,7 +33,7 @@
 
 <p align="center">
  <a href="https://mdakijislam.github.io/dexter" target="blank">
-  <img src="https://img.shields.io/badge/Website-DC143C?style=for-the-badge&logo=medium&logoColor=white" alt="alsiam" />
+  <img src="https://img.shields.io/badge/Website-DC143C?style=for-the-badge&logo=medium&logoColor=white" alt="Dexter" />
  </a>
  <!-- <a href="https://mdakijislam.github.io/dexter" target="_blank">
   <img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" alt="alsiam" />
@@ -102,7 +96,7 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 <br/>
 ## Top Open Source -
-[![iTasks](https://github-readme-stats.vercel.app/api/pin/?username=alsiam&repo=itasks&border_color=7F3FBF&bg_color=0D1117&title_color=C9D1D9&text_color=8B949E&icon_color=7F3FBF)](https://mdakijislam.github.io/dexter)
+[![iTasks](https://github-readme-stats.vercel.app/api/pin/?username=alsiam&repo=itasks&border_color=7F3FBF&bg_color=0D1117&title_color=C9D1D9&text_color=8B949E&icon_color=7F3FBF)](https://mdakijislam23.github.io/dexter)
 [![urFolio](https://github-readme-stats.vercel.app/api/pin/?username=alsiam&repo=urfolio&border_color=7F3FBF&bg_color=0D1117&title_color=C9D1D9&text_color=8B949E&icon_color=7F3FBF)](https://mdakijislam.github.io/dexter)
 [![Web Projects](https://github-readme-stats.vercel.app/api/pin/?username=alsiam&repo=web-projects&border_color=7F3FBF&bg_color=0D1117&title_color=C9D1D9&text_color=8B949E&icon_color=7F3FBF)](https://mdakijislam.github.io/dexter/)
 
@@ -115,7 +109,7 @@
 <br/>
 <p align="center">
   <a href="https://mdakijislam.github.io/dexter">
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=mdakijislam&20&theme=radical&exclude_days=Fri&card_width=600" alt="Md Akij Islam"/>
+    <img src="https://github-readme-streak-stats.herokuapp.com?user=mdakijislam23%20&theme=radical&exclude_days=Fri&card_width=600" alt="Md Akij Islam"/>
   </a>
 </p>
 <p align="center">
