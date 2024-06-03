@@ -24,7 +24,7 @@ main{
     width:52px;
     height:52px;
     border-radius:50px;
-    background:rgba(0,0,0,.3) url(https://i.postimg.cc/0jh8tQPt/p1.jpg);
+    background:rgba(0,0,0,.3) url(https://i.postimg.cc/bN7Jg77N/dex.jpg);
     background-size:cover;
     margin-right:10px;
 }/*   */
@@ -32,7 +32,7 @@ main{
     width:52px;
     height:52px;
     border-radius:50px;
-    background:rgba(0,0,0,.3) url(https://i.postimg.cc/1XCDLcT3/PSX-20240413-235447.jpg);
+    background:rgba(0,0,0,.3) url(https://i.postimg.cc/s2cGnvw3/love-1.gif);
     background-size:cover;
     margin-right:10px;
 }/* Never trust anyone */
@@ -73,15 +73,15 @@ nav i.fa-bars:active{
     overflow:hidden;
     position:fixed;
     left:0;
-    top:63px;
+    top:64px;
     transition:.3s;
     transition-timing-function:ease-in-out;
 }/*   */
 #menu li {
     list-style-type: none;
     width: 100%;
-    padding: 8px;
-    transition:.2s;
+    padding: 5px;
+    transition:.6s;
     position: relative;
 }/*   */
 
@@ -91,9 +91,9 @@ nav i.fa-bars:active{
     z-index: 1;
 }/*   */
 #menu li i{
-    font-size:18px;
+    font-size:16px;
     color:#fff;
-    padding:0 6px 0 0;
+    padding:0 3px 0 0;
 }
 #menu li a,
 #menu li i,li {
@@ -107,7 +107,7 @@ nav i.fa-bars:active{
 }/*   */
 .header{
     width:100%;
-    height:450px; background:url(https://cdn.leonardo.ai/users/67f5b889-57f7-4c91-a866-5196e916f817/generations/25a95ea3-08fa-425c-a807-db1d029a86cf/PhotoReal_Create_an_incredibly_realistic_4K_portrait_featuring_0.jpg);
+    height:450px; background:url(https://i.postimg.cc/50V0sN5x/2022.jpg);
     background-size:cover;
     background-repeat:no-repeat;
     background-position:center;
