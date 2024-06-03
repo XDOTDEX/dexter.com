@@ -40,5 +40,6 @@
            header.style.marginTop=0;
         }
         });
-
-                  
+window.addEventListener("click",play);
+function play(){ document.getElementById("peace").play();
+}
